@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+.nav-body {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+.site-title {
+    display: flex;
+}
+.nav-links *{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    font-size: larger;
+    margin-right: 20px;
+}
+h1 {
+    text-align: center;
+}
+.user-input {
+    display: flex;
+    justify-content: center;
+}
+.errorMessage{
+    display: flex;
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+}
+.postBlock {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+    flex-direction: column;
+    width: 500px;
+
+    border: solid black 1px;
+}
+.logOut {
+background-color: black;
+color: purple;
+
+}
+h2 {
+    text-align: center;
+}
+.makePost{
+    display: flex;
+    text-align: center;
+}
